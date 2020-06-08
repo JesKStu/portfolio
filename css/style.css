@@ -19,6 +19,11 @@
 	background-color: #000
 }
 
+.button_link {
+	color: white;
+	text-decoration: none;
+}
+
 #info {
 	background-color: pink;
 	margin-left: -15px;
@@ -46,7 +51,7 @@
 	padding-bottom: 10px;
 }
 
-#main_text {
+.main_text {
 	margin-top: 30px;
 	margin-right: 50px
 }
@@ -55,12 +60,25 @@
 	color: #6d6386;
 }
 
+.years {
+	margin-top: 30px; 
+	color: #727481;
+	font-weight: bold;
 
+}
+
+.sub_text {
+	color: gray;
+}
 
 .skills_container{
   width: 90%;
   margin: 180px auto;
+}
 
+.scroll_content {
+	height: 400px;
+	overflow: scroll;
 }
 
 @keyframes load{
